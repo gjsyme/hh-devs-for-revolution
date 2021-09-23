@@ -1,3 +1,4 @@
+// so fragile. got its own file due to wanting it for the enumeration and the server
 const buildDevFromArray = (tokenId, devArray) => ({
   name: `Dev #${tokenId}`,
   os: devArray[0],

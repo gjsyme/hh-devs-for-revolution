@@ -54,6 +54,7 @@ async function main() {
 
   // up and running
   console.log(`Devs for Revolution data server listening at ${HOST}:${PORT}`);
+  console.log(`Valid request format is ${HOST}:${PORT}?id=x where 0<x<8001`);
 }
 
 
